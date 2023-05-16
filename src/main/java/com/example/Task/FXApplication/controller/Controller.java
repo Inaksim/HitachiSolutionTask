@@ -8,8 +8,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.FileChooser;
-
-import java.awt.event.ActionEvent;
 import java.io.File;
 import java.net.URL;
 import java.util.List;
@@ -52,7 +50,7 @@ public class Controller {
         DataParsingService parsingService = new DataParsingService();
         FileWriterService fileWriterService = new FileWriterService();
 
-        File file = new File("D:\\JAVA\\HitachitFX\\src\\main\\resources\\com\\example\\hitachitfx\\result.csv");
+        File file = new File("D:\\JAVA\\Task\\src\\main\\resources\\result.csv");
 
         chooseFile.setOnAction(event -> {
             FileChooser fileChooser = new FileChooser();
@@ -94,11 +92,5 @@ public class Controller {
         recivieremail.setText(resources.getString("reciviermail"));
         sendMailButton.setText(resources.getString("sendEmail"));
         chooseFile.setText(resources.getString("chooseFile"));
-
-
-
-
     }
-
-
 }

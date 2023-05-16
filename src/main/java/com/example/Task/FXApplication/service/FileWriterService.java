@@ -5,7 +5,6 @@ import com.example.Task.FXApplication.model.WeatherData;
 import com.opencsv.CSVWriter;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

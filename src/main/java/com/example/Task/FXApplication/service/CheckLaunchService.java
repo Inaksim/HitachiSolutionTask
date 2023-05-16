@@ -1,7 +1,6 @@
 package com.example.Task.FXApplication.service;
 
 import com.example.Task.FXApplication.model.WeatherData;
-
 import java.util.ArrayList;
 import java.util.List;
 
